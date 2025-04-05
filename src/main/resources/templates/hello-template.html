@@ -1,11 +1,10 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCKTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>Hello</title>
 </head>
 <body>
-Hello World!
-<a href="/hello">hello</a>
+<p th:text="'hello ' + ${name}">hello! empty</p>
 </body>
 </html>

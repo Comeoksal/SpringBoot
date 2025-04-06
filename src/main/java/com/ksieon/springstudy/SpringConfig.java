@@ -1,5 +1,6 @@
 package com.ksieon.springstudy;
 
+import com.ksieon.springstudy.aop.TimeTraceAop;
 import com.ksieon.springstudy.domain.Member;
 import com.ksieon.springstudy.repository.JpaMemberRepository;
 import com.ksieon.springstudy.repository.MemberRepository;

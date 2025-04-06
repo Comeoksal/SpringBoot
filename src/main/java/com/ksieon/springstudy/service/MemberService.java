@@ -3,12 +3,13 @@ package com.ksieon.springstudy.service;
 import com.ksieon.springstudy.domain.Member;
 import com.ksieon.springstudy.repository.MemberRepository;
 import com.ksieon.springstudy.repository.MemoryMemberRepository;
+import jakarta.transaction.Transactional;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-
+@Transactional
 public class MemberService {
 
     private final MemberRepository memberRepository;
@@ -23,9 +24,14 @@ public class MemberService {
      */
     public Long join(Member member) {
 
-        validateDuplicateMember(member); // 중복 회원 검증
-        memberRepository.save(member);
-        return member.getId();
+        long start = System.currentTimeMillis();
+        try {
+            validateDuplicateMember(member); // 중복 회원 검증
+            memberRepository.save(member);
+            return member.getId();
+        } finally {
+            long finish = System.currentTimeMillis();
+        }
 
     }
 

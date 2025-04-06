@@ -3,6 +3,7 @@
 ## Optional이란 무엇인가?
 ## Junit, jupiter란 무엇인가?
 ## assertj란 무엇인가?
+## AOP란 무엇인가?
 
 # 💡IntelliJ 단축키 모음
 
@@ -11,6 +12,7 @@
 - Ctrl + Shif + T : 해당 클래스의 테스트 케이스 생성
 - Ctrl + Alt + v : 해당 함수를 반환 받는 변수 생성
 - Ctrl + Alt + Shift + T : 자주 사용하는 함수 리팩토링 (로직을 함수로 만들어냄)
+- Ctrl + Alt + N : 지역 변수 제거 후 코드에 넣는 리팩토링
 - Alt + Insert : Getter and Setter, Constructor 등 자동 완성
 - Alt + Enter : 필요한 import 추가
 - Shift + F6 : 지정 변수 전체 변경

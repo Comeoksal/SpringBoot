@@ -5,6 +5,7 @@ import jakarta.servlet.ServletContext;
 import jakarta.servlet.ServletException;
 import java.util.Set;
 
+//깡통 ContainerInit (실행 결과를 보기 위함)
 public class MyContainerInitV1 implements ServletContainerInitializer {
 
     @Override

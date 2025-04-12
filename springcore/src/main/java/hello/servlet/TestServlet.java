@@ -7,6 +7,7 @@ import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
+//하드 코딩을 통한 서블릿 등록
 @WebServlet(urlPatterns = "/test")
 public class TestServlet extends HttpServlet {
 

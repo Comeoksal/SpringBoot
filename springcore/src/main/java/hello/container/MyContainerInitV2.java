@@ -6,6 +6,7 @@ import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.HandlesTypes;
 import java.util.Set;
 
+//HandlesTypes로 AppInit 인터페이스를 구현 받는 클래스들 등록
 @HandlesTypes(AppInit.class)
 public class MyContainerInitV2 implements ServletContainerInitializer {
 

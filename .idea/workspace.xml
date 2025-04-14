@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38a5ca70-6fdf-490b-a097-d6101b71e7b3" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springcore/src/main/java/hello/spring/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springcore/src/main/java/hello/spring/HelloController.java" afterDir="false" />
-    </list>
+    <list default="true" id="38a5ca70-6fdf-490b-a097-d6101b71e7b3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1744465505595</updated>
       <workItem from="1744465508288" duration="289000" />
-      <workItem from="1744642612081" duration="34000" />
+      <workItem from="1744642612081" duration="101000" />
     </task>
     <servers />
   </component>

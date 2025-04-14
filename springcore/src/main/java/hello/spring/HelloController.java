@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
-    @GetMapping("/hello-spring")
+    @GetMapping("/hello-springs")
     public String hello() {
         System.out.println("hello Spring");
         return "Hello Spring";
